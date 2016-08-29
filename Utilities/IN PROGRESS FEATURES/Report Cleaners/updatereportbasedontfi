@@ -1,0 +1,5 @@
+#change training backup based on tfi
+tfi_path=r"C:\Users\User\SyncedFolder\Training\QAM R9 work area\TrainingRecords\Training File Indices\Training File Index.xlsm".replace("\\","/")
+tfi='Training File Index'
+open(tfi_path)
+active_wkbk(tfi)
